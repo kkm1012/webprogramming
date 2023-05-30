@@ -1,0 +1,44 @@
+기말프로젝트
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>나만의 홈페이지 
+</title>
+</head>
+<style>
+body {
+	background-color: linen;
+} </style>
+<body>
+<h3>김경민의 옷쇼핑몰</h3>
+<hr>
+<ul> 옷 카테고리 <br>
+	<li><a href="#top">상의</a>
+	<li><a href="#bottom">바지</a>
+	<li><a href="#shoes">신발</a>
+</ul>
+<h3 id="top">상의</h3>
+<img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fscontent-icn1-1.cdninstagram.com%2Fvp%2F2acf8eae49ee6fb31a2a764bab436e20%2F5D41D538%2Ft51.2885-15%2Fe35%2F51372187_394303891352863_7865125013792177755_n.jpg%3F_nc_ht%3Dscontent-icn1-1.cdninstagram.com&type=sc960_832" width="300" height="350" alt="이미지"  >
+<img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fscontent-nrt1-1.cdninstagram.com%2Fv%2Ft51.2885-15%2Fe35%2F170308215_226357819275304_3555324435347791424_n.jpg%3Ftp%3D1%26_nc_ht%3Dscontent-nrt1-1.cdninstagram.com%26_nc_cat%3D104%26_nc_ohc%3D-ZPxUjLColQAX8lqKks%26edm%3DAABBvjUAAAAA%26ccb%3D7-4%26oh%3Da1da5510277b42fada15fe86d8f7af3e%26oe%3D60976BFA%26_nc_sid%3D83d603&type=sc960_832" width="300" height="350" alt="이미지">
+<h4> 티셔츠 33,000원 </h4>
+<h3 id="bottom">바지</h3>
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230508_191%2F1683530736194AadGd_JPEG%2F17558058111911262_1014803806.JPG&type=sc960_832" width="300" height="350" alt="이미지">
+<img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fscontent-icn1-1.cdninstagram.com%2Fvp%2F571050eeb4dbeec80bcc0abce69e6272%2F5D4B3D44%2Ft51.2885-15%2Fe35%2F46596512_2041279202830385_7516933446265072619_n.jpg%3F_nc_ht%3Dscontent-icn1-1.cdninstagram.com&type=sc960_832" width="300" height="350" alt="이미지">
+<h4> 바지 54,000원 </h4>
+<h3 id="shoes">신발</h3>
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230502_2%2F1683035133946WemCX_JPEG%2F84170917649565154_1839184881.jpg&type=sc960_832" width="300" height="350" alt="이미지">
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230420_20%2F1681967975476XGxdT_JPEG%2F12768576445656702_1448749947.jpg&type=sc960_832" width="300" height="350" alt="이미지">
+<h4> 신발 90,000원 </h4>
+<hr>
+<h2> 구매하기</h2>
+<form>
+	<select name="china">
+		<option value="1">티셔츠</option>
+		<option value="2" selected>바지</option>
+		<option value="3">신발</option>
+	</select>
+	<input type="submit" value="구매">
+</form>
+</body>
+</html>
